@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Budi Darmawan — Programmer based in Ciamis." />
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23c85a1e%22></rect><text x=%2250%22 y=%2250%22 font-family=%22serif%22 font-weight=%22700%22 font-size=%2255%22 fill=%22white%22 text-anchor=%22middle%22 dy=%22.35em%22>Ub</text></svg>">
+
+    <title>Budi Darmawan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <a class="logo" href="#" id="logo" title="Triple-click for a surprise">Ub</a>
+
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#" id="about-link">About</a></li>
+          <li><a href="https://medium.com/@darmawanv/about" target="_blank" rel="noopener">Writing</a></li>
+          <li><a href="https://www.chess.com/member/darmawanv" target="_blank" rel="noopener">Play</a></li>
+          <li><a href="https://linkedin.com/in/darmawanv" target="_blank" rel="noopener">Me</a></li>
+          <li><a href="mailto:hello@yourdomain.com" class="contact-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-controls">
+          <button id="theme-toggle" aria-label="Toggle theme">
+            <span class="icon">🌙</span>
+          </button>
+          <button id="hamburger" aria-label="Toggle menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+
+        <div class="hero-top">
+          <div class="hero-content">
+            <span class="eyebrow">Programmer · Ciamis</span>
+            <h1>Budi Darmawan</h1>
+            <p class="lead">
+              Exploring the world with an open mind.
+              Always questioning, always evolving regardless of the subject.
+            </p>
+            <div class="hero-actions">
+              <a href="https://github.com/altvesperv" target="_blank" rel="noopener" class="btn-primary">Projects</a>
+              <a href="https://driveandlisten.app/city/tokyo" target="_blank" rel="noopener" class="btn-ghost">Take a Stroll</a>
+            </div>
+          </div>
+
+          <div class="hero-portrait">
+            <img src="assets/FP.png" alt="Budi Darmawan" />
+          </div>
+        </div>
+
+        <p class="page-quote">"Growth begins where comfort ends."</p>
+
+      </section>
+    </main>
+
+    <div id="about-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="About Budi Darmawan">
+      <div class="modal-card" id="modal-card">
+        <button id="modal-close" aria-label="Close">×</button>
+
+        <div class="modal-photo">
+          <img src="assets/FP.png" alt="Budi Darmawan" />
+          <div class="modal-socials">
+            <a href="https://instagram.com/altvesper" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://tiktok.com/@altvesper" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            </a>
+            <a href="https://x.com/altvesper" target="_blank" rel="noopener" aria-label="X / Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="modal-body">
+          <span class="eyebrow">Who I am</span>
+          <h2>Budi Darmawan</h2>
+          <p>
+            Programmer based in Ciamis, Indonesia. 
+            For me, writing code is a creative outlet and a skill I love developing purely as a hobby, alongside reading and playing chess.
+          </p>
+          <p>
+            I write about technology and whatever's been occupying my mind on Medium.
+            If you want to challenge me to a game, I'm always up for it on Chess.com.
+          </p>
+          <div class="modal-links">
+            <a href="https://medium.com/@darmawanv/about" target="_blank" rel="noopener">Writing →</a>
+            <a href="https://www.chess.com/member/darmawanv" target="_blank" rel="noopener">Play chess →</a>
+            <a href="https://linkedin.com/in/darmawanv" target="_blank" rel="noopener">LinkedIn →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="clock-overlay" class="clock-overlay" aria-hidden="true">
+      <div class="clock-display" id="digital-clock">00:00:00</div>
+      <p class="clock-hint">tap anywhere to close</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
